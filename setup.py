@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='simple-python-app',
+    name='Calculator',
     version='0.1',
     packages=find_packages(),
     description='Calculator and test',
