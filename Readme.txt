@@ -12,3 +12,5 @@
 # make clean (Removes __pycache__ directories.)
 # make  build (Runs unit tests.)
 # make test (Creates a source distribution.)
+
+# There are 3 Pass and 2 Fail.
