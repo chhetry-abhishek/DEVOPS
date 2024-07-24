@@ -1,4 +1,14 @@
-To run the build script:
-- Install dependencies: `pip install -r requirements.txt`
-- Run tests: `make test`
-- Build package: `make build`
+1. **Clone the Repository**
+
+2. Set Up the Environment
+
+3. Install Dependencies
+# python install .
+
+4. Run python calculator.py
+
+5.Testing
+# python -m unittest discover -s tests
+# make clean (Removes __pycache__ directories.)
+# make  build (Runs unit tests.)
+# make test (Creates a source distribution.)

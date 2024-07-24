@@ -1,10 +1,10 @@
 .PHONY: clean test build
 
 clean:
-    rm -rf __pycache__
+	if exist __pycache__ (rmdir /s /q __pycache__)
 
 test:
-    python -m unittest discover -s tests
+	python -m unittest discover -s tests
 
 build:
-    python setup.py sdist
+	python setup.py sdist
