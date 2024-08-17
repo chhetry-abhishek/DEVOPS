@@ -8,3 +8,5 @@ test:
 
 build:
 	python setup.py sdist
+package:
+	python setup.py bdist
